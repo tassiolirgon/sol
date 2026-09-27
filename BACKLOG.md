@@ -3,7 +3,7 @@
 Pontos levantados durante o uso. Ajustar quando for decidido.
 
 ## Textos
-- [ ] **Frase do Despertado** (27/09/2026). A frase atual fala de "não ter especialidade", o que entrega a existência das classes antes da hora. Quer algo mais épico, no sentido de "despertou, não tem mais volta", sem citar especialização (as classes devem ser surpresa). Aparece na revelação do onboarding e na aba Evolução (`src/content.ts`, classe `despertado`; o onboarding repete o texto em `src/ui/screens/Onboarding.tsx`, unificar ao trocar).
+- [x] **Frase do Despertado** (27/09/2026). Resolvido: opção 2. A frase atual fala de "não ter especialidade", o que entrega a existência das classes antes da hora. Quer algo mais épico, no sentido de "despertou, não tem mais volta", sem citar especialização (as classes devem ser surpresa). Aparece na revelação do onboarding e na aba Evolução (`src/content.ts`, classe `despertado`; o onboarding repete o texto em `src/ui/screens/Onboarding.tsx`, unificar ao trocar).
   Opções sugeridas:
   1. "Algo despertou. E o que desperta não volta a dormir."
   2. "Você abriu os olhos. O mundo continua o mesmo. Você, não."

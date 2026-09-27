@@ -21,7 +21,7 @@ export const SLOGAN = 'Não há volta. Só evolução.'
 
 export const CLASSES: ClassDef[] = [
   { key: 'despertado', name: 'Despertado', tier: 0, minLevel: 1, requirementText: 'Classe inicial',
-    lore: 'A primeira vez que alguém abre os olhos para o próprio potencial não tem nome de especialidade. Só tem início.' },
+    lore: 'Você abriu os olhos. O mundo continua o mesmo. Você, não.' },
 
   { key: 'lamina', name: 'Lâmina', tier: 1, minLevel: 5, attrs: { saude: 15 }, requirementText: 'Nível 5 · Saúde 15',
     lore: 'O corpo como arma forjada pela repetição.' },

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { SLOGAN } from '../../content'
+import { classByKey, SLOGAN } from '../../content'
 import { useStore } from '../../store'
 import { Composer } from '../components/Composer'
 import { MissionItem } from '../components/MissionItem'
@@ -67,7 +67,7 @@ export function Onboarding() {
         <p className="kicker">Análise concluída</p>
         <div className="glyph" style={{ marginTop: 26 }}><span>1</span></div>
         <h1 className="big">Despertado</h1>
-        <p className="lore">A primeira vez que alguém abre os olhos para o próprio potencial não tem nome de especialidade. Só tem início.</p>
+        <p className="lore">{classByKey('despertado').lore}</p>
         <p className="lore muted" style={{ marginTop: 16 }}>Agora defina sua rotina. O Sistema cuida do resto.</p>
         <div className="actions"><button className="btn gold" onClick={() => setStep('routine')}>Iniciar</button></div>
       </div>
